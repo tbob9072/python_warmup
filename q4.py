@@ -8,8 +8,19 @@
 다음 코드를 완성하여 합격이면 True, 불합격이면 False가 출력되도록 작성하시오. 
 '''
 
-a = int(input('국어: '))
-b = int(input('영어: '))
-c = int(input('수학: '))
-d = int(input('과학: '))
+a = int(input('kor: '))
+b = int(input('eng: '))
+c = int(input('math: '))
+d = int(input('sci: '))
 # 아래에 코드를 작성해 주세요.
+
+if a < 90 :
+    print("fail")
+elif b <= 80 :
+    print("fail")
+elif c <= 85 :
+    print("fail")
+elif d < 80 :
+    print("fail")
+else :
+    print("pass")

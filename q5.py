@@ -5,5 +5,16 @@
 # 입력 예시: 300000;20000;10000
 '''
 
-prices = input('물품 가격을 입력하세요: ')
+prices = input('input prices : ')
 # 아래에 코드를 작성해 주세요.
+
+sp_p = prices.split(";")
+
+pri = []
+for i in sp_p :
+    t = int(i)
+    pri.append(t)
+
+
+pri.sort(reverse=True)
+print(pri)  
