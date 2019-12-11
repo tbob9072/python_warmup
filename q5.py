@@ -14,7 +14,10 @@ pri = []
 for i in sp_p :
     t = int(i)
     pri.append(t)
-
+# pri.append(int(i))
 
 pri.sort(reverse=True)
 print(pri)  
+
+# for i in pri :
+#   print(i)

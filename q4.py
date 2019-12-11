@@ -24,3 +24,6 @@ elif d < 80 :
     print("fail")
 else :
     print("pass")
+
+
+# python 에서는 &연산자 대신 and를 써야함

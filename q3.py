@@ -11,5 +11,9 @@ if number % 2 == 0 :
 else :
     print("odd number")
 
-
+# 1 값이 True이기 때문에 == 0 은 생략하고 홀수를 출력해주면됨
+# if number % 2 :
+#   print("odd number")
+# else :
+#   print("even number")
     

@@ -10,3 +10,7 @@ i = 1
 for i in range(n) :
     i = i + 1
     print(i)
+
+
+# for i in range(n) :
+#   print(i + 1)
